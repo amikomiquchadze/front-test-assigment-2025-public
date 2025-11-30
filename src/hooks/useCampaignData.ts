@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import rawData from "../../public/data.json";
+import rawData from "../data.json";
 
 import type { Campaign } from "../data/types/campaign";
 import type { Metric } from "../data/types/metrics";

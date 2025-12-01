@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from "react-router-dom";
 import { DashboardPage } from "../features/dashboard/DashboardPage";
 function AppRouter() {
   const isAuthenticated = true;
@@ -8,7 +8,11 @@ function AppRouter() {
       <Route
         path="/"
         element={
-          isAuthenticated ? <Navigate to="/dashboard" replace /> : <Navigate to="/login" replace />
+          isAuthenticated ? (
+            <Navigate to="/dashboard" replace />
+          ) : (
+            <Navigate to="/login" replace />
+          )
         }
       />
       <Route path="/dashboard" element={<DashboardPage />} />

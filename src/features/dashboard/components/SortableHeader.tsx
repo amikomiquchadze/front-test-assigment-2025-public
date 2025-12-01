@@ -19,8 +19,9 @@ function SortableHeader({
   return (
     <th
       onClick={onClick}
-      className={`${styles.thBase} ${align === "right" ? styles.right : ""} ${active ? styles.active : styles.inactive
-        }`}
+      className={`${styles.thBase} ${align === "right" ? styles.right : ""} ${
+        active ? styles.active : styles.inactive
+      }`}
     >
       <span className={styles.thContent}>
         {label}
@@ -29,7 +30,7 @@ function SortableHeader({
         </span>
       </span>
     </th>
-  )
-};
+  );
+}
 
 export default SortableHeader;

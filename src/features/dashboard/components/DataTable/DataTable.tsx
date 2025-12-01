@@ -128,6 +128,6 @@ function DataTable({ buckets, mode }: DataTableProps) {
       </div>
     </div>
   );
-};
+}
 
 export default DataTable;

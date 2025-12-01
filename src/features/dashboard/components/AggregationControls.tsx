@@ -39,8 +39,7 @@ function AggregationControls({
               padding: "6px 12px",
               borderRadius: 999,
               border: "1px solid #1e293b",
-              backgroundColor:
-                mode === m ? "#0ea5e9" : "rgba(15,23,42,0.9)",
+              backgroundColor: mode === m ? "#0ea5e9" : "rgba(15,23,42,0.9)",
               color: mode === m ? "#0f172a" : "#e5e7eb",
               fontSize: 12,
               textTransform: "capitalize",
@@ -76,6 +75,6 @@ function AggregationControls({
       </div>
     </div>
   );
-};
+}
 
 export default AggregationControls;
